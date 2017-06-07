@@ -40,16 +40,9 @@
 	}
 	#TagLine
 	{
-		background-color: rgb(95,76,45);
+		background-color: rgba(95,76,45,0.8);
 		color: white;
 		font-size: 30px;
-		width : Xu;
-		height: Yu;
-		position: absolute;
-		top: 90%;
-		left: 20%;
-		margin-left: -(X/2)u;
-		margin-top: -(Y/2)u;
 	}
 	#FirstLine
 	{
@@ -57,28 +50,25 @@
 		width : Xu;
 		height: Yu;
 		position: absolute;
-		top: 160%;
+		top: 140%;
 		left: 30%;
 		margin-left: -(X/2)u;
 		margin-top: -(Y/2)u;
 	}
 	#PutAnswer
 	{
+		background-color: rgb(95,76,45);
 		font-size: 45px;
-		width: Xu;
-   		height: Yu;
-   		position: absolute;
-   		top: 202%;
-   		left: 30%;
-   		margin-left: -(X/2)u;
-   		margin-top: -(Y/2)u;
+   		color: white;
+   		text-align: center;
+   		
 	}
 	#Question
 	{
 		width: Xu;
    		height: Yu;
    		position: absolute;
-   		top: 140%;
+   		top: 125%;
    		left: 37%;
    		margin-left: -(X/2)u;
    		margin-top: -(Y/2)u;
@@ -92,7 +82,7 @@
 		width: Xu;
    		height: Yu;
    		position: absolute;
-   		top: 150%;
+   		top: 137%;
    		left: 37%;
    		margin-left: -(X/2)u;
    		margin-top: -(Y/2)u;
@@ -102,7 +92,7 @@
 		width: Xu;
    		height: Yu;
    		position: absolute;
-   		top: 160%;
+   		top: 148%;
    		left: 37%;
    		margin-left: -(X/2)u;
    		margin-top: -(Y/2)u;
@@ -120,7 +110,7 @@
 		width: Xu;
    		height: Yu;
    		position: absolute;
-   		top: 170%;
+   		top: 160%;
    		left: 37%;
    		margin-left: -(X/2)u;
    		margin-top: -(Y/2)u;
@@ -132,10 +122,20 @@
    		height: Yu;
    		position: absolute;
    		top: 186%;
-   		left: 52%;
+   		left: 62%;
    		margin-left: -(X/2)u;
    		margin-top: -(Y/2)u;	
    		color: white;
+	}
+	#CopyRight
+	{
+		width: Xu;
+   		height: Yu;
+   		position: absolute;
+   		top: 246%;
+   		left: 22%;
+   		margin-left: -(X/2)u;
+   		margin-top: -(Y/2)u;	
 	}
 	#reset
 	{
@@ -144,7 +144,7 @@
    		height: Yu;
    		position: absolute;
    		top: 186%;
-   		left: 12%;
+   		left: 10%;
    		margin-left: -(X/2)u;
    		margin-top: -(Y/2)u;	
    		color: white;
@@ -171,7 +171,7 @@
 	}
 	#Author
 	{
-		background-color: rgb(95,76,45);
+		background-color: rgba(95,76,45,0.8);
 		font-size: 30px;
 		width : Xu;
 		height: Yu;
@@ -220,56 +220,45 @@
 	</p>
 	</div>
 </div>
-<!--
-<div class="row" style="background-color: blue">
-	<div class="col-md-5"></div>
-	<div class="col-md-5">
-	<h3>
-	</h3>
-	</div>
-</div>
-<div class="row" style="background-color: blue">
-	<div class="col-md-5"></div>
-	<div class="col-md-5">
-	<h3>
-	</h3>
-	</div>
-</div>
-<div class="row" style="background-color: blue">
-	<div class="col-md-5"></div>
-	<div class="col-md-5">
-	<h3>
-	</h3>
-	</div>
-</div>
-<div class="row">
-<br> -->
+<br>
+
 <div id="Article" >
 	<p>Are you looking for the answers?</p>
 	<p>praful answers offers you a space to ask anything you  want.</p>
 	<p>Anything you like ,anything you hate , just anything.however,</p>
 	you need yo write a request before each question.   
 </div>
-<div id="Color" >
-<div id="TagLine" class="row">
-	<p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="TagLine" style="background-color: rgba(95,76,45,0.8); text-align: center;">
+	<p >
 		Request Is Everthing , Request Here
 	</p>
 	<p>
 		And Get The Answer
 	</p>
-	<p id="Author">
+	<p style="text-align: right;">
 		    - Praful Answers
 	</p>
 </div>
 </div>
 <h2 id="Question"> Your Question </h2>
+<br>
 <input type="text" name="Question" id="QuestionText" required />
+<br>
 <h2 id="Request">Your Request </h2>
+<br>
 <input type="text" name="Request" id="RequestText"  onkeypress="ChangeRequest()" required   ></input>
+<br>
 <button type="button" id="Button" onclick="GetAnswer()">Get The Answer</button>
-<p id="PutAnswer"> </p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br>
+<p id="PutAnswer" > </p>
 <button type="reset" value="Reset" id="reset"> Try again </button>
+</div>
+<div id="CopyRight">
+	<p >
+		copyright 2017
+	</p>
 </div>
 <div id="share">
 	
