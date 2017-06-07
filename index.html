@@ -5,14 +5,71 @@
 	{
 		background-color: rgb(255,67,67);
 	}
+	#share
+	{
+		font-size: 30px;
+		width : Xu;
+		height: Yu;
+		position: absolute;
+		top: 225%;
+		left: 25%;
+		margin-left: -(X/2)u;
+		margin-top: -(Y/2)u;	
+	}
+	#Welcome
+	{
+		font-size: 30px;
+		width : Xu;
+		height: Yu;
+		position: absolute;
+		top: 15%;
+		left: 25%;
+		margin-left: -(X/2)u;
+		margin-top: -(Y/2)u;	
+	}
+	#Article
+	{
+		font-size: 30px;
+		width : Xu;
+		height: Yu;
+		position: absolute;
+		top: 30%;
+		left: 25%;
+		margin-left: -(X/2)u;
+		margin-top: -(Y/2)u;
+	}
+	#TagLine
+	{
+		background-color: rgb(95,76,45);
+		color: white;
+		font-size: 30px;
+		width : Xu;
+		height: Yu;
+		position: absolute;
+		top: 90%;
+		left: 20%;
+		margin-left: -(X/2)u;
+		margin-top: -(Y/2)u;
+	}
+	#FirstLine
+	{
+		font-size: 45px;
+		width : Xu;
+		height: Yu;
+		position: absolute;
+		top: 160%;
+		left: 30%;
+		margin-left: -(X/2)u;
+		margin-top: -(Y/2)u;
+	}
 	#PutAnswer
 	{
 		font-size: 45px;
 		width: Xu;
    		height: Yu;
    		position: absolute;
-   		top: 70%;
-   		left: 39%;
+   		top: 202%;
+   		left: 30%;
    		margin-left: -(X/2)u;
    		margin-top: -(Y/2)u;
 	}
@@ -21,8 +78,8 @@
 		width: Xu;
    		height: Yu;
    		position: absolute;
-   		top: 20%;
-   		left: 39%;
+   		top: 140%;
+   		left: 37%;
    		margin-left: -(X/2)u;
    		margin-top: -(Y/2)u;
 		font-size: 25px;
@@ -35,8 +92,8 @@
 		width: Xu;
    		height: Yu;
    		position: absolute;
-   		top: 30%;
-   		left: 39%;
+   		top: 150%;
+   		left: 37%;
    		margin-left: -(X/2)u;
    		margin-top: -(Y/2)u;
 	}
@@ -45,8 +102,8 @@
 		width: Xu;
    		height: Yu;
    		position: absolute;
-   		top: 40%;
-   		left: 39%;
+   		top: 160%;
+   		left: 37%;
    		margin-left: -(X/2)u;
    		margin-top: -(Y/2)u;
 		font-size: 25px;
@@ -63,8 +120,8 @@
 		width: Xu;
    		height: Yu;
    		position: absolute;
-   		top: 50%;
-   		left: 39%;
+   		top: 170%;
+   		left: 37%;
    		margin-left: -(X/2)u;
    		margin-top: -(Y/2)u;
 	}
@@ -74,10 +131,23 @@
 		width: Xu;
    		height: Yu;
    		position: absolute;
-   		top: 63%;
-   		left: 34%;
+   		top: 186%;
+   		left: 52%;
    		margin-left: -(X/2)u;
    		margin-top: -(Y/2)u;	
+   		color: white;
+	}
+	#reset
+	{
+		font-size: 25px;
+		width: Xu;
+   		height: Yu;
+   		position: absolute;
+   		top: 186%;
+   		left: 12%;
+   		margin-left: -(X/2)u;
+   		margin-top: -(Y/2)u;	
+   		color: white;
 	}
 	input
 	{
@@ -91,26 +161,119 @@
 	}
 	button 
 	{
-    	background-color: #4CAF50;
+    	background-color: rgb(95,76,45);
     	color: white;
     	padding: 14px 20px;
     	margin: 8px 0;
     	border: none;
     	cursor: pointer;
-    	width: 40%;
+    	width: 30%;
+	}
+	#Author
+	{
+		background-color: rgb(95,76,45);
+		font-size: 30px;
+		width : Xu;
+		height: Yu;
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		margin-left: -(X/2)u;
+		margin-top: -(Y/2)u;
 	}
 </style>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
 <head>
 	<title>Praful Please Answer </title>
 </head>
 <body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid" style="background-color: rgb(96,76,45)">
+    <div class="navbar-header" >
+      <a class="navbar-brand" href="Answer.html" style="color: white">Praful Please Answer</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li ><a href="#" style="color: white"> Home </a></li>
+      <li><a href="#" style="color: white">Share</a></li>
+      <li><a href="#" style="color: white">About Us</a></li>
+      <li ><a href="test.html" style="color: white">Log In</a></li>
+      <li ><a href="test.html" style="color: white" onmouseover="ChangeColor()">Log Out</a></li>
+    </ul>
+  </div>
+</nav>
+<!-- 
 <marquee direction="right" style="font-size: 35px">Request Here And Get The Answer</marquee>
+-->
+<div id="Welcome">
+	<p>
+		Welcome To Praful Answers........
+	</p>
+	</div>
+</div>
+<!--
+<div class="row" style="background-color: blue">
+	<div class="col-md-5"></div>
+	<div class="col-md-5">
+	<h3>
+	</h3>
+	</div>
+</div>
+<div class="row" style="background-color: blue">
+	<div class="col-md-5"></div>
+	<div class="col-md-5">
+	<h3>
+	</h3>
+	</div>
+</div>
+<div class="row" style="background-color: blue">
+	<div class="col-md-5"></div>
+	<div class="col-md-5">
+	<h3>
+	</h3>
+	</div>
+</div>
+<div class="row">
+<br> -->
+<div id="Article" >
+	<p>Are you looking for the answers?</p>
+	<p>praful answers offers you a space to ask anything you  want.</p>
+	<p>Anything you like ,anything you hate , just anything.however,</p>
+	you need yo write a request before each question.   
+</div>
+<div id="Color" >
+<div id="TagLine" class="row">
+	<p>
+		Request Is Everthing , Request Here
+	</p>
+	<p>
+		And Get The Answer
+	</p>
+	<p id="Author">
+		    - Praful Answers
+	</p>
+</div>
+</div>
 <h2 id="Question"> Your Question </h2>
 <input type="text" name="Question" id="QuestionText" required />
 <h2 id="Request">Your Request </h2>
 <input type="text" name="Request" id="RequestText"  onkeypress="ChangeRequest()" required   ></input>
 <button type="button" id="Button" onclick="GetAnswer()">Get The Answer</button>
 <p id="PutAnswer"> </p>
+<button type="reset" value="Reset" id="reset"> Try again </button>
+</div>
+<div id="share">
+	
+</div>
 <script >
 	var AnswerString,k=1;
 	AnswerString = '';
@@ -148,6 +311,10 @@
 	String.prototype.replaceAt=function(index, replacement) 
 	{
     	return this.substr(0, index) + replacement+ this.substr(index + replacement.length);
+	}
+	function ChangeColor() 
+	{
+		
 	}
 </script>
 </body>
